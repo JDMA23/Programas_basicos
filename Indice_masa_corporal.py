@@ -1,0 +1,5 @@
+print("Este programa calcula el indice de masa corporal (IMC).")
+peso = float(input("Ingrese su peso en kilogramos: "))
+altura = float(input("Ingrese su altura en metros: "))
+imc = peso / (altura ** 2)
+print("Su indice de masa corporal es: ", imc)
